@@ -43,9 +43,17 @@ CMakeDoxygenDefaults.cmake
 cmake_install.cmake
 cmake_uninstall.cmake
 
-# premake directories
+# premake directories and files
 bin/
 bin-int/
+*.make
+*.makefile
+*.xcworkspace
+*.xcodeproj
+*.sln
+*.vcxproj
+*.vcxproj.filters
+*.user
 
 # Generated files
 docs/Doxyfile
